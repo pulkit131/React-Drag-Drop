@@ -1,0 +1,38 @@
+.app {
+    display: grid;
+    grid-template-rows: 150px auto;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.app_main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+}
+
+.task_column {
+    width: 33.33%;
+    margin: 20px;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-toggle:hover {
+    background-color: var(--button-hover-background);
+    color: var(--button-hover-text);
+}

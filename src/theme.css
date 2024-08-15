@@ -1,0 +1,21 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --border-color: #dcdcdc;
+    --card-background: #f9f9f9;
+    --button-background: #888888;
+    --button-text: #000000;
+    --button-hover-background: #000000;
+    --button-hover-text: #ffffff;
+}
+
+.dark-theme {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --border-color: #333333;
+    --card-background: #1e1e1e;
+    --button-background: #666666;
+    --button-text: #ffffff;
+    --button-hover-background: #ffffff;
+    --button-hover-text: #000000;
+}
